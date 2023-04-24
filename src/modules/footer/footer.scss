@@ -1,0 +1,101 @@
+@use "../../css/style_settings.scss" as *;
+
+.Footer_wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    grid-column: 1/4;
+    grid-row: 5/6;
+
+    padding: 20px;
+    background-color: $object_color;
+}
+
+#contact_header {
+    font-size: 40px;
+    font-family: $header_font;
+    color: $header_color;
+}
+
+#contact_desc {
+    font-family: $text_font;
+    font-size: 20px;
+}
+
+#contactinfo_container {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 30px;
+    align-items: center;
+}
+
+#contactinfo_container > div {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+#contact_text {
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: $text_font;
+}
+
+a {
+    margin: 10% 0 10% 0;
+
+    transition: transform 0.15s ease-out;
+}
+
+a:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+#contact_icon {
+    width: 70px;
+}
+
+#legal_text {
+    font-family: $text_font;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 40px 0 0 0;
+    font-size: 12px;
+}
+
+// Tablet breakpoint
+@media (max-width: 1050px) {
+
+    .Footer_wrapper {
+        text-align: center;
+    }
+}
+
+// Phone breakpoint
+@media (max-width: 550px) {
+
+    #contact_header {
+        font-size: 35px;
+    }
+
+    #contact_desc {
+        font-size: 18px;
+    }
+
+    #contact_text {
+        padding-left: 15px;
+        font-size: 17px;
+    }
+
+    #contact_icon {
+        width: 50px;
+    }
+
+    #legal_text {
+        padding: 30px 0 0 0;
+        font-size: 9px;
+    }
+}

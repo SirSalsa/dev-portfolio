@@ -1,0 +1,107 @@
+@use "../../css/style_settings.scss" as *;
+
+.Navbar_wrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    //Make the navbar stick around if scrolling
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    grid-column: 1/4;
+    grid-row: 1/2;
+
+    grid-template-columns: 15% 25% 45% 15%;
+
+    font-family: $header_font;
+    height: 60px;
+    background-color: $object_color;
+    min-width: 100%;
+
+    border-bottom: 4px solid $header_color;
+}
+
+#left_container {
+    display: flex;
+    justify-content: flex-start;
+
+    grid-column: 2/3;
+}
+
+#right_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 14px;
+    grid-column: 3/4;
+
+    min-height: 60px;
+    text-align: center;
+}
+
+#right_container > h2 {
+    display: flex;
+    min-height: inherit;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#right_container > h2:hover {
+    color: $navbar_text_hover_color;
+    cursor: pointer;
+    background-color:$navbar_hover_color;
+}
+
+// Wider Tablet breakpoint
+@media (max-width: 1300px) {
+
+    .Navbar_wrapper {
+        grid-template-columns: 25% 75%;
+    }
+
+    #left_container {
+        grid-column: 1/2;
+    }
+
+    #left_container > h1 {
+        font-size: 30px;
+        margin-left: 5px;
+    }
+
+    #right_container {
+        grid-column: 2/3;
+    }
+}
+
+// Tablet breakpoint
+@media (max-width: 1050px) {
+    
+    #left_container > h1 {
+        font-size: 18px;
+    }
+
+    #right_container > h2 {
+        font-size: 15px;
+    }
+}
+
+// Phone breakpoint
+@media (max-width: 550px) {
+
+    .Navbar_wrapper {
+        grid-template-columns: 20% 80%;
+    }
+
+    #left_container > h1 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #right_container > h2 {
+        font-size: 12px;
+    }
+}

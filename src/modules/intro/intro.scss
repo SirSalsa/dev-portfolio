@@ -1,0 +1,187 @@
+@use "../../css/style_settings.scss" as *;
+
+.Intro_wrapper {
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+    display: grid;
+    align-items: center;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto auto;
+    padding: 40px 40px 80px 40px;
+}
+
+#title_container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items:flex-start;
+    justify-self: left;
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#title_container > h1 {
+    font-size: 65px;
+    font-family: $header_font;
+    color: $header_color;
+}
+
+#title_container > h2 {
+    font-size: 25px;
+    font-family: $header_font;
+    color: $text_color;
+}
+
+#portrait_container {
+    display: flex;
+    flex-flow: column;
+
+    align-items: end;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#portrait_container > img {
+    width: 350px;
+}
+
+#desc_container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    grid-column: 1/3;
+    grid-row: 2/3;
+
+    background-color: $background_color_light;
+    margin: 40px 10% 0 10%;
+    padding: 20px 5% 30px 5%;
+}
+
+#desc_container > h2 {
+    font-family: $header_font;
+    font-size: 40px;
+    color: $header_color;
+    padding-bottom: 10px;
+}
+
+#desc_container > p {
+    font-family: $text_font;
+    font-size: 18px;
+}
+
+#cv_button_wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    transition: transform 0.25s ease-out;
+}
+
+#cv_button_wrapper:hover {
+    transform: scale(1.15);
+}
+
+#cv_button_wrapper > button {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    background-color: $header_color;
+    min-width: 150px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: $button_hover_color;
+    cursor: pointer;
+}
+
+button > img {
+    width: 40px;
+}
+
+button > p {
+    font-family: $text_font;
+    color: $text_color;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+// Tablet breakpoint
+@media (max-width: 1050px) {
+    
+    .Intro_wrapper {
+        grid-template-columns: 50% 50%;
+        padding: 40px 0px 40px 0px;
+    }
+
+    #title_container {
+        align-items: center;
+        text-align: center;
+        margin-right: 5px;
+    }
+    
+    #title_container > h1 {
+        font-size: 35px;
+    }
+
+    #title_container > h2 {
+        font-size: 18px;
+    }
+
+    #portrait_container > img {
+        width: 100%;
+    }
+
+    #desc_container {
+        margin: 40px 5% 0 5%;
+    }
+}
+
+// Phone breakpoint
+@media (max-width: 550px) {
+
+    .Intro_wrapper {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+        padding-top: 15px;
+    }
+    
+    #title_container {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-right: 0px;
+        padding-bottom: 20px;
+
+        justify-self: center;
+    }
+
+    #portrait_container {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    #portrait_container > img {
+        align-self: center;
+        width: 70%;
+    }
+
+    #desc_container {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        padding: 10px 5% 15px 5%;
+    }
+
+    #desc_container > h2 {
+        font-size: 30px;
+        padding-bottom: 5px;
+    }
+
+    #desc_container > p {
+        font-size: 14px;
+        text-align: center;
+    }
+}
