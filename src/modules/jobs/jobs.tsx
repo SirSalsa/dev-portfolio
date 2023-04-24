@@ -3,27 +3,11 @@ import "./jobs.scss"
 //Planday
 import plandaylogo from "./media/professional/planday.png"
 
-//Pet Rescue Saga
-import petrescuelogo from "./media/professional/petrescuelogo.png"
-import prs_1 from "./media/gallery/petrescue/prs_1.png"
-import prs_2 from "./media/gallery/petrescue/prs_2.png"
-import prs_3 from "./media/gallery/petrescue/prs_3.png"
-
-//Roof Runners
-import roofRunnerslogo from "./media/other/roofrunners.jpg"
-import roofrunners_1 from "./media/gallery/roofrunners/roofrunners_1.jpg"
-import roofrunners_2 from "./media/gallery/roofrunners/roofrunners_2.jpg"
-import roofrunners_3 from "./media/gallery/roofrunners/roofrunners_3.jpg"
-import roofrunners_4 from "./media/gallery/roofrunners/roofrunners_4.jpg"
-import roofrunners_5 from "./media/gallery/roofrunners/roofrunners_5.jpg"
-
-//Laborated
-import laboratedlogo from "./media/other/laborated.png"
-import laborated_1 from "./media/gallery/laborated/laborated_1.png"
-import laborated_2 from "./media/gallery/laborated/laborated_2.png"
-import laborated_3 from "./media/gallery/laborated/laborated_3.png"
-import laborated_4 from "./media/gallery/laborated/laborated_4.png"
-
+//Portfolio
+import portfolio_front from "./media/other/portfolio_front.png"
+import portfolio_1 from "./media/gallery/portfolio/portfolio_1.png"
+import portfolio_2 from "./media/gallery/portfolio/portfolio_2.png"
+import portfolio_3 from "./media/gallery/portfolio/portfolio_3.png"
 
 import arrow from "./media/gallery/arrow.png"
 import { useState } from "react"
@@ -70,60 +54,29 @@ const PP_projects: Project[] = [
 
 const OP_projects: Project[] = [
   {
-    id: "OP_project1",
-    title: "Roof Runners",
-    subtitle: "School Project",
-    imageSrc: roofRunnerslogo,
-    description:
-      "Roof Runners is an exhilarating tag game where six players compete as either dogs or cats. As a dog, your mission is to catch all the cats before time runs out, while the cats must evade capture and free any captured feline friends by pressing a button.",
-    tags: [
-      { id: "tag_1", text: "Level Design" },
-      { id: "tag_2", text: "Game Design" },
-      { id: "tag_3", text: "Unity" },
-    ],
-    overview: [
-      "Prototyped and iterated on game mechanics",
-      "Creating and maintaining the Game Design Document (GDD)",
-      "Building (Greyboxing) and playtesting levels using Unity",
-      "Creating a level design philosophy in collaboration with the other designers",
-      "Organizing test sessions and collecting feedback",
-      "Project management, with Trello and Google Sheets"
-    ],
-    gallery: [
-      { type: "image", src: roofRunnerslogo },
-      { type: "image", src: roofrunners_1 },
-      { type: "image", src: roofrunners_2 },
-      { type: "image", src: roofrunners_3 },
-      { type: "image", src: roofrunners_4 },
-      { type: "image", src: roofrunners_5 },
-      { type: "video", src: "https://www.youtube.com/embed/aNFFV_5peZg" }
-    ]
-  },
-  {
     id: "OP_project2",
-    title: "Laborated",
-    subtitle: "School Project",
-    imageSrc: laboratedlogo,
+    title: "Portfolio Sites",
+    subtitle: "Personal Project",
+    imageSrc: portfolio_front,
     description:
-      "Laborated is a first-person stealth game with some minor horror elements. The game provides a tense and uncomfortable atmosphere as the player explores the dark interiors of the facility.",
+      "These two showcase portfolio sites have been crafted to vividly present both myself and my finest work. Leveraging the power of Vite and React.js, these sites are not only robust but also effortlessly adapt to any device screen size, ensuring an engaging user experience.",
     tags: [
-      { id: "tag_1", text: "Level Design" },
-      { id: "tag_2", text: "Game Design" }
+      { id: "tag_2", text: "React" },
+      { id: "tag_3", text: "TypeScript" },
+      { id: "tag_5", text: "Sass" },
+      { id: "tag_1", text: "Vite" }
     ],
     overview: [
-      "Design of game mechanics in collaboration with the other designer",
-      "Creating and maintaining the Game Design Document (GDD)",
-      "Drew the initial level layout",
-      "Playtesting and iterating on the level's design, mainly with enemy pathing",
-      "Project management, with Trello and Google Sheets"
+      "Designed, coded and maintained three 3 different repositories as part of this project, using git submodules",
+      "Created an easily reusable website template, allowing for adapting new content in a short timespan with high customizability",
+      "Built a module system for both React components and their corresponding SCSS",
+      "Deployed and hosted the website using Github Pages",
+      "The code is available on my Github (look at Contact section)"
     ],
     gallery: [
-      { type: "image", src: laboratedlogo },
-      { type: "image", src: laborated_1 },
-      { type: "image", src: laborated_2 },
-      { type: "image", src: laborated_3 },
-      { type: "image", src: laborated_4 },
-      { type: "video", src: "https://www.youtube.com/embed/85sTgeq2sKo" }
+      { type: "image", src: portfolio_1 },
+      { type: "image", src: portfolio_2 },
+      { type: "image", src: portfolio_3 },
     ]
   }
 ];
