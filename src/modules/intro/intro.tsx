@@ -7,7 +7,7 @@ function Intro() {
         <div className="Intro_wrapper">
             <div id="title_container">
                 <h1>Torsten Lareke</h1>
-                <h2>Level designer with a strong technical background</h2>
+                <h2>Backend Developer with Java and C# experience</h2>
             </div>
             <div id="portrait_container">
                 <img src={portrait} alt="Portrait" />
@@ -15,11 +15,11 @@ function Intro() {
             <div id="desc_container">
                 <h2>About Me</h2>
                 <p>
-                    Hello there! I'm Torsten, a level designer and backend developer with a strong passion for creating unforgettable game experiences. With almost two years of experience in the games industry, I honed my design skills working on casual mobile games.
+                    Hello! I'm Torsten, a versatile backend developer skilled in both Java and C#, which broadens my perspective in the field. This June marks the completion of my two-year Java Developer education and my internship at Planday.
 
-                    In addition to my design work, I gained experience in backend C# development, where I learned skills in database management, API integration, and more. Combining my design skills with my programming capabilities, I'm able to create better and more engaging experiences in games.
+                    During my educational journey, I've explored various facets of programming, including (but not limited to) database management, Java web services, front-end development fundamentals, API implementation, and Android development.
 
-                    I'm always up for a challenge and eager to try out new things, so feel free to reach out if you're interested in collaborating on a project. Let's create something amazing together!
+                    Learning new things and venturing into unseen territory is something that drives every day!
                 </p>
                 <form id="cv_button_wrapper" target="_blank">
                     <button id="about_button" formAction="https://drive.google.com/file/d/1P1aOPR0MSWkPle1ylPtduyuIFQodQpId/view?usp=sharing">
