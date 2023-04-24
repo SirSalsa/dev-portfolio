@@ -19,7 +19,7 @@ function Intro() {
 
                     During my educational journey, I've explored various facets of programming, including (but not limited to) database management, Java web services, front-end development fundamentals, API implementation, and Android development.
 
-                    Learning new things and venturing into unseen territory is something that drives every day!
+                    Learning new things and venturing into unseen territory is something that drives me every day!
                 </p>
                 <form id="cv_button_wrapper" target="_blank">
                     <button id="about_button" formAction="https://drive.google.com/file/d/1P1aOPR0MSWkPle1ylPtduyuIFQodQpId/view?usp=sharing">

@@ -1,12 +1,7 @@
 import "./jobs.scss"
 
-//Candy Crush Saga
-import candycrushlogo from "./media/professional/candy_crush_logo.jpg"
-import ccs_1 from "./media/gallery/candycrush/ccs_1.png"
-import ccs_2 from "./media/gallery/candycrush/ccs_2.png"
-import ccs_3 from "./media/gallery/candycrush/ccs_3.png"
-import ccs_4 from "./media/gallery/candycrush/ccs_4.png"
-import ccs_5 from "./media/gallery/candycrush/ccs_5.png"
+//Planday
+import plandaylogo from "./media/professional/planday.png"
 
 //Pet Rescue Saga
 import petrescuelogo from "./media/professional/petrescuelogo.png"
@@ -47,54 +42,28 @@ interface Project {
 const PP_projects: Project[] = [
   {
     id: "PP_project1",
-    title: "Candy Crush Saga",
-    subtitle: "King",
-    imageSrc: candycrushlogo,
+    title: "Planday",
+    subtitle: "Planday",
+    imageSrc: plandaylogo,
     description:
-      "Candy Crush Saga is a wildly addictive and colorful match-3 puzzle game that has captured the hearts of millions of players worldwide. With over 10,000 levels to explore, players match colorful candies to progress through the game and unlock exciting rewards. With its simple yet challenging gameplay, it's no wonder Candy Crush Saga has become one of the most popular mobile games of all time.",
+      "Planday specializes in helping businesses with hourly workers operate more efficiently by streamlining staff management and employee scheduling. The product is available on both PC and Mobile devices.",
     tags: [
-      { id: "tag_1", text: "Level Design" },
-      { id: "tag_2", text: "Game Design" }
+      { id: "tag_1", text: "C#" },
+      { id: "tag_2", text: "ASP.NET" },
+      { id: "tag_3", text: "APIs" },
+      { id: "tag_4", text: "Microsoft Azure" }
     ],
     overview: [
-      "Creating, designing and iterating upon levels",
-      "Playtesting and giving feedback on levels with the other level designers",
-      "Working in the new features team to design, greenlight and develop new game features",
-      "Participating and leading projects to update / rework older levels",
-      "Collaborating with data scientists to tweak levels to desired performance",
-      "Worked in 2-week sprints using the SCRUM / Agile Method"
+      "Developed new functionalities for both existing and new API endpoints",
+      "Refactored code to conform to modern standard",
+      "Wrote unit and integration tests for uncovered code, while updating outdated tests",
+      "Executed tests on dynamic environments, built and monitored production after code deployment",
+      "Utilized tools such as Jira and Bitbucket for efficient task tracking within the team",
+      "Worked in 2-week sprints using SCRUM / Agile methodology"
     ],
     gallery: [
-      { type: "image", src: candycrushlogo },
-      { type: "image", src: ccs_1 },
-      { type: "image", src: ccs_2 },
-      { type: "image", src: ccs_3 },
-      { type: "image", src: ccs_4 },
-      { type: "image", src: ccs_5 },
-      { type: "video", src: "https://www.youtube.com/embed/j11dUiYKUFs" }
-    ]
-  },
-  {
-    id: "PP_project2",
-    title: "Pet Rescue Saga",
-    subtitle: "King",
-    imageSrc: petrescuelogo,
-    description:
-      "Pet Rescue Saga is a cute match-3 puzzle game where you need to rescue animals that are trapped. Match blocks of the same color to clear the levels and save the pets. Matching moves are limited so plan carefully to blast as many blocks as possible, solve the puzzles, and save the pets.",
-    tags: [
-      { id: "tag_1", text: "Level Design" }
-    ],
-    overview: [
-      "Creating, designing and iterating upon levels",
-      "Playtesting and giving feedback on levels with the other level designers",
-      "Worked in 2-week sprints using the SCRUM / Agile Method"
-    ],
-    gallery: [
-      { type: "image", src: petrescuelogo },
-      { type: "image", src: prs_1 },
-      { type: "image", src: prs_2 },
-      { type: "image", src: prs_3 },
-      { type: "video", src: "https://www.youtube.com/embed/5SaRg2Lefbs" }
+      { type: "image", src: plandaylogo },
+      { type: "video", src: "https://www.youtube.com/embed/hLOOLObwODo" }
     ]
   }
 ];
