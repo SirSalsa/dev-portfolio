@@ -1,6 +1,7 @@
 import "./footer.scss"
 import linkedin from "./media/linkedin.png"
 import email from "./media/email.png"
+import github from "./media/github.png"
 
 function Footer() {
     return(
@@ -15,6 +16,12 @@ function Footer() {
                     <p id="contact_text">torsten.lareke@hotmail.se</p>
                 </div>
                 <div>
+                <a href="https://github.com/SirSalsa">
+                        <img src={github} alt="Email img" id="contact_icon"/>
+                    </a>
+                    <p id="contact_text">Github Account - SirSalsa</p>
+                </div>
+                <div>
                     <a href="https://www.linkedin.com/in/torsten-lareke/">
                         <img src={linkedin} alt="Linkedin img" id="contact_icon"/>
                     </a>
@@ -22,7 +29,7 @@ function Footer() {
                 </div>
             </div>
             <div id="legal_text">
-                <p>Copyright © 2023 by Torsten Lareke. All rights reserved. Any games or trademarks shown on this website are the property of their respective owners.</p>
+                <p>This website was designed and coded by me. Any games or trademarks shown on this website are the property of their respective owners.</p>
             </div>
         </div>
     );
