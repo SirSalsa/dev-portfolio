@@ -9,7 +9,11 @@ import portfolio_1 from "./media/gallery/portfolio/portfolio_1.png"
 import portfolio_2 from "./media/gallery/portfolio/portfolio_2.png"
 import portfolio_3 from "./media/gallery/portfolio/portfolio_3.png"
 
+//Project Window
 import arrow from "./media/gallery/arrow.png"
+import opentab from "./media/projectwindow/opentab.png"
+import github from "./media/projectwindow/github.png"
+
 import { useState } from "react"
 
 interface Project {

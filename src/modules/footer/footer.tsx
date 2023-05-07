@@ -29,7 +29,7 @@ function Footer() {
                 </div>
             </div>
             <div id="legal_text">
-                <p>This website was designed and coded by me. Any games or trademarks shown on this website are the property of their respective owners.</p>
+                <p>This website was designed and coded by me. Any products or trademarks shown on this website are the property of their respective owners.</p>
             </div>
         </div>
     );
