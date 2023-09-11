@@ -1,5 +1,6 @@
 import Footer from "../footer/footer"
 import Intro from "../intro/intro"
+import Skills from "../skills/skills"
 import Jobs from "../jobs/jobs"
 import Navbar from "../navbar/navbar"
 import "./App.scss"
@@ -10,6 +11,7 @@ function App(): JSX.Element {
     <div className="App">
       <Navbar/>
       <Intro/>
+      <Skills/>
       <Jobs/>
       <Footer/>
     </div>

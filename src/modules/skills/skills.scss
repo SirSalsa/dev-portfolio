@@ -1,0 +1,74 @@
+@use "../../css/style_settings.scss" as *;
+
+.skills_wrapper {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#header_container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+
+    margin-bottom: 30px;
+    padding: 10px 0 20px 0;
+
+    background-color: $object_color;
+    border-left: 2px solid $header_color;
+    border-right: 2px solid $header_color;
+}
+
+#skills_container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    padding-bottom: 80px;
+}
+
+#skills_container>article {
+    transition: transform 0.25s ease-out;
+}
+
+#header_container>h1 {
+    font-size: 40px;
+    font-family: $header_font;
+    color: $header_color;
+}
+
+#header_container>p {
+    font-family: $text_font;
+}
+
+#projects_container>article {
+    margin: 20px 50px 20px 50px;
+}
+
+#projects_container>article>img {
+    width: 50px;
+}
+
+// Tablet breakpoint
+@media (max-width: 1050px) {
+
+    #projects_container {
+        padding-bottom: 40px;
+    }
+
+    #projects_container>article>img {
+        width: 30px;
+    }
+}
+
+// Phone breakpoint
+@media (max-width: 550px) {
+
+    #header_container>h1 {
+        font-size: 32px;
+    }
+
+    #header_container>p {
+        font-size: 14px;
+    }
+}
