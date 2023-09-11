@@ -1,6 +1,6 @@
 @use "../../css/style_settings.scss" as *;
 
-.skills_wrapper {
+.Skills_wrapper {
     grid-column: 2/3;
     grid-row: 3/4;
 }
@@ -41,23 +41,29 @@
     font-family: $text_font;
 }
 
-#projects_container>article {
-    margin: 20px 50px 20px 50px;
+#skills_container>article {
+    margin: 20px 10px 20px 10px;
 }
 
-#projects_container>article>img {
-    width: 50px;
+#skills_container>article>img {
+    width: 100px;
+}
+
+#skills_container>article>p {
+    font-family: $header_font;
+    text-align: center;
+    font-size: 18px;
 }
 
 // Tablet breakpoint
 @media (max-width: 1050px) {
 
-    #projects_container {
+    #skills_container {
         padding-bottom: 40px;
     }
 
-    #projects_container>article>img {
-        width: 30px;
+    #skills_container>article>img {
+        width: 20px;
     }
 }
 
