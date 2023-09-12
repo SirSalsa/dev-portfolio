@@ -50,6 +50,8 @@
     display: flex;
     min-height: inherit;
     align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #right_container > h2:hover {
@@ -87,6 +89,8 @@
 
     #right_container > h2 {
         font-size: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
