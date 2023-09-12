@@ -9,6 +9,7 @@ import js from "./media/js.png"
 import ts from "./media/ts.png"
 import css from "./media/css.png"
 import html from "./media/html5.png"
+import sass from "./media/sass.png"
 import vite from "./media/vite.png"
 import mysql from "./media/mysql.png"
 
@@ -59,6 +60,10 @@ function Skills() {
           <article>
             <img src={html} alt="HTML Logo"/>
             <p>HTML</p>
+          </article>
+          <article>
+            <img src={sass} alt="Sass Logo"/>
+            <p>Sass</p>
           </article>
           <article>
             <img src={vite} alt="Vite Logo"/>
