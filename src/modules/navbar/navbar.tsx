@@ -34,7 +34,7 @@ function Navbar() {
             <div id="right_container">
                 <h2 onClick={() => scrollToClass('Intro_wrapper')}>About</h2>
                 <h2 onClick={() => scrollToClass('Skills_wrapper')}>Skills</h2>
-                <h2 onClick={() => scrollToClass('PP_wrapper')}>Experience</h2>
+                <h2 onClick={() => scrollToClass('Exp_wrapper')}>Experience</h2>
                 <h2 onClick={() => scrollToClass('OP_wrapper')}>Projects</h2>
                 <h2 onClick={() => scrollToClass('Footer_wrapper')}>Contact</h2>
             </div>

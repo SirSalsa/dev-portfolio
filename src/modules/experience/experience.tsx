@@ -25,7 +25,7 @@ function Experience() {
     return (
         <div className="Exp_wrapper">
             <div id="header_container">
-                <h1>Skills & Tools</h1>
+                <h1>Experience</h1>
                 <p>These are the technologies & tools I have experience in through either projects or education</p>
             </div>
             <div id="exp_container">
