@@ -149,7 +149,6 @@ function Jobs() {
       <div className="PP_wrapper">
         <div id="header_container">
           <h1>Experience</h1>
-          <p>My working experience at companies</p>
         </div>
         <div id="projects_container">
           {PP_projects.map((project, index) => (
@@ -171,7 +170,6 @@ function Jobs() {
       <div className="OP_wrapper">
         <div id="header_container">
           <h1>Projects</h1>
-          <p>Click on a tile to learn more about a project.</p>
         </div>
         <div id="projects_container">
           {OP_projects.map((project, index) => (
