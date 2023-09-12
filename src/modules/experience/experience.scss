@@ -29,6 +29,20 @@
     font-family: $text_font;
 }
 
+#exp_container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#exp_browser {
+    padding-right: 15%;
+
+    font-size: 20px;
+    
+}
+
 // Tablet breakpoint
 @media (max-width: 1050px) {
 
