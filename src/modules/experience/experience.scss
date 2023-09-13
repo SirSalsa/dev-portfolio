@@ -34,13 +34,52 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+
+    padding-bottom: 80px;
 }
 
 #exp_browser {
     padding-right: 15%;
 
     font-size: 20px;
+    font-family: $header_font;
+}
+
+#exp_browser>h4 {
+    padding-left: 25px;
+    margin-top: 20px;
+}
+
+#exp_browser>h4:hover {
+    color: $exp_hover_color;
+    cursor: pointer;
+}
+
+// Class used for current experience rendered
+.active {
+    color: $button_hover_color;
+
+    border-left: 2px solid $header_color;
+}
+
+#exp_objects {
     
+}
+
+#exp_objects>article {
+    font-family: $text_font;
+}
+
+#exp_objects>article>h2 {
+    font-family: $header_font;
+}
+
+#exp_objects>article>h4 {
+    padding-bottom: 2%;
+}
+
+#exp_objects>article>ul>li {
+    padding-bottom: 2%;
 }
 
 // Tablet breakpoint
