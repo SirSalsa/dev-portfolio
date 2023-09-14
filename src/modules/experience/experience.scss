@@ -1,32 +1,9 @@
+@use "../../css/common_styles.scss" as *;
 @use "../../css/style_settings.scss" as *;
 
 .Exp_wrapper {
     grid-column: 2/3;
     grid-row: 4/5;
-}
-
-#header_container {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    text-align: center;
-
-    margin-bottom: 30px;
-    padding: 10px 0 20px 0;
-
-    background-color: $object_color;
-    border-left: 2px solid $header_color;
-    border-right: 2px solid $header_color;
-}
-
-#header_container>h1 {
-    font-size: 40px;
-    font-family: $header_font;
-    color: $header_color;
-}
-
-#header_container>p {
-    font-family: $text_font;
 }
 
 #exp_container {

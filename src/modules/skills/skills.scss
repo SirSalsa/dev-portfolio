@@ -1,32 +1,9 @@
+@use "../../css/common_styles.scss" as *;
 @use "../../css/style_settings.scss" as *;
 
 .Skills_wrapper {
     grid-column: 2/3;
     grid-row: 3/4;
-}
-
-#header_container {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    text-align: center;
-
-    margin-bottom: 30px;
-    padding: 10px 0 20px 0;
-
-    background-color: $object_color;
-    border-left: 2px solid $header_color;
-    border-right: 2px solid $header_color;
-}
-
-#header_container>h1 {
-    font-size: 40px;
-    font-family: $header_font;
-    color: $header_color;
-}
-
-#header_container>p {
-    font-family: $text_font;
 }
 
 #skills_container {
@@ -76,14 +53,6 @@
 
 // Phone breakpoint
 @media (max-width: 550px) {
-
-    #header_container>h1 {
-        font-size: 32px;
-    }
-
-    #header_container>p {
-        font-size: 14px;
-    }
 
     #skills_container>article {
         margin: 20px 12px;
