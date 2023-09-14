@@ -23,11 +23,12 @@ import restful from "../skills/media/api_rest.png";
 
 // Links
 import githublink from "./media/links/github_link.png"
+import newtab from "./media/links/opentab.png"
+import download from "./media/links/download.png"
 
 // Project Media
-import portfolio1 from "./media/Portfolio_1.png"
-
-
+import new_portfolio_1 from "./media/projects/new_portfolio/Portfolio_1.png"
+import old_portfolio_1 from "./media/projects/old_portfolio/Portfolio_old_1.png"
 
 function Projects() {
   return (
@@ -39,17 +40,18 @@ function Projects() {
       <div id="projects_container">
         <article className="left_article">
           <div id="project_image">
-            <img src={portfolio1} alt="" />
+            <img src={new_portfolio_1} alt="" />
           </div>
           <div id="project_info">
-            <h2>Project Title</h2>
+            <h2>Portfolio Website</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac vehicula velit. Sed id scelerisque nisi. Phasellus eu nunc id ex congue dictum. Vestibulum euismod cursus semper. Fusce viverra justo nec libero hendrerit, eu interdum tortor blandit. In sit amet nisl at nunc dapibus suscipit. Sed fringilla odio at nisi tincidunt, ac pharetra erat egestas. Vivamus fringilla, velit id scelerisque interdum, quam nisl bibendum lectus, eget facilisis odio lectus eget felis. Fusce vestibulum, odio et interdum tincidunt, elit arcu hendrerit arcu, id efficitur odio quam a lectus.</p>
             <div id="project_skills">
-              <img src={github} alt="Github" />
-              <img src={github} alt="Github" />
-              <img src={github} alt="Github" />
-              <img src={github} alt="Github" />
-              <img src={github} alt="Github" />
+              <img src={react} alt="React.js" />
+              <img src={ts} alt="Typescript" />
+              <img src={html} alt="HTML" />
+              <img src={css} alt="CSS" />
+              <img src={sass} alt="Sass" />
+              <img src={vite} alt="Vite" />
             </div>
             <div id="project_links">
               <a href="https://github.com/SirSalsa/portfolio-vite">
@@ -59,24 +61,28 @@ function Projects() {
           </div>
         </article>
         <article className="right_article">
-          <div id="project_image">
-            <img src={portfolio1} alt="" />
-          </div>
           <div id="project_info">
-            <h2>Project Title</h2>
+            <h2>Portfolio Website (Old)</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac vehicula velit. Sed id scelerisque nisi. Phasellus eu nunc id ex congue dictum. Vestibulum euismod cursus semper. Fusce viverra justo nec libero hendrerit, eu interdum tortor blandit. In sit amet nisl at nunc dapibus suscipit. Sed fringilla odio at nisi tincidunt, ac pharetra erat egestas. Vivamus fringilla, velit id scelerisque interdum, quam nisl bibendum lectus, eget facilisis odio lectus eget felis. Fusce vestibulum, odio et interdum tincidunt, elit arcu hendrerit arcu, id efficitur odio quam a lectus.</p>
             <div id="project_skills">
-              <img src={github} alt="Github" />
-              <img src={github} alt="Github" />
-              <img src={github} alt="Github" />
-              <img src={github} alt="Github" />
-              <img src={github} alt="Github" />
+              <img src={react} alt="React.js" />
+              <img src={js} alt="Javascript" />
+              <img src={html} alt="HTML" />
+              <img src={css} alt="CSS" />
+              <img src={sass} alt="Sass" />
+              <img src={vite} alt="Vite" />
             </div>
             <div id="project_links">
               <a href="https://github.com/SirSalsa/portfolio-vite">
                 <img src={githublink} alt="Github" />
               </a>
+              <a href="https://github.com/SirSalsa/portfolio-vite">
+                <img src={newtab} alt="New Tab" />
+              </a>
             </div>
+          </div>
+          <div id="project_image">
+            <img src={old_portfolio_1} alt="" />
           </div>
         </article>
       </div>
