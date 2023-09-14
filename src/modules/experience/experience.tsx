@@ -24,7 +24,7 @@ import restful from "../skills/media/api_rest.png";
 
 function Experience() {
     const [selectedExperience, setSelectedExperience] = useState('Planday');
-    const [activeBrowserItem, setActiveBrowserItem] = useState('planday'); 
+    const [activeBrowserItem, setActiveBrowserItem] = useState('planday');
 
     const handleExperienceClick = (experience: string, browserItemId: string) => {
         setSelectedExperience(experience);
@@ -58,12 +58,12 @@ function Experience() {
                             <h2>Backend Engineer Intern @ Planday</h2>
                             <h4>January - May 2023</h4>
                             <div id="exp_skills">
-                                <img src={csharp} alt="C# Logo"/>
-                                <img src={aspnetcore} alt="ASP.NET Core Logo"/>
-                                <img src={azure} alt="Microsoft Azure Logo"/>
-                                <img src={restful} alt="Restful Logo"/>
-                                <img src={agile} alt="Agile Method Logo"/>
-                                <img src={jira} alt="Jira Logo"/>
+                                <img src={csharp} alt="C# Logo" />
+                                <img src={aspnetcore} alt="ASP.NET Core Logo" />
+                                <img src={azure} alt="Microsoft Azure Logo" />
+                                <img src={restful} alt="Restful Logo" />
+                                <img src={agile} alt="Agile Method Logo" />
+                                <img src={jira} alt="Jira Logo" />
                             </div>
                             <ul>
                                 <li>Developed, maintained and shipped production code for a Microservice based application, mainly using C#, ASP.NET Core 6, Azure and RESTful APIs.</li>
@@ -78,9 +78,9 @@ function Experience() {
                             <h2>Level Designer & Intern @ King</h2>
                             <h4>November 2019 - September 2021</h4>
                             <div id="exp_skills">
-                                <img src={trello} alt="Trello Logo"/>
-                                <img src={agile} alt="Agile Method Logo"/>
-                                <img src={jira} alt="Jira Logo"/>
+                                <img src={trello} alt="Trello Logo" />
+                                <img src={agile} alt="Agile Method Logo" />
+                                <img src={jira} alt="Jira Logo" />
                             </div>
                             <ul>
                                 <li>Responsible for designing and playtesting new levels, ensuring alignment with design goals and difficulty targets.</li>
