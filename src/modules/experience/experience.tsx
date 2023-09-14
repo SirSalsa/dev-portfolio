@@ -70,6 +70,7 @@ function Experience() {
                                 <li>Wrote, updated, and executed comprehensive unit tests to validate code changes, ensuring the application's stability and functionality.</li>
                                 <li>Investigated and conducted code cleanup in multiple repositories to enhance code quality, consistently reducing the number of SonarQube issues by 80-90%, leading to improved overall code maintainability and reliability.</li>
                                 <li>Actively participated in an English-speaking tech team, adhering to agile methodologies with 2-week sprints, and efficiently managing projects through Jira (kanban) boards.</li>
+                                <li>Actively participated in an English-speaking tech team, adhering to agile methodologies with 2-week sprints, and efficiently managing projects through Jira (kanban) boards.</li>
                             </ul>
                         </article>
                     )}
