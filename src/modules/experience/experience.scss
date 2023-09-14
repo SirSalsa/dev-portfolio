@@ -139,7 +139,8 @@
         padding-left: 0%;
 
         display: flex;
-        flex-flow: row;
+        flex-flow: row nowrap;
+        
     }
 
     // Class used for current experience rendered
@@ -154,5 +155,23 @@
         padding-left: 0px;
         margin-top: 0px;
         padding: 15px;
+        margin-right: 25px;
+    }
+
+    #exp_objects {
+        padding-left: 5%;
+        padding-bottom: 20px;
+    }
+
+    #exp_objects>article>h2 {
+        font-size: 18px;
+    }
+
+    #exp_objects>article>ul {
+        width: 90%;
+    }
+
+    #exp_objects>article>ul>li {
+        font-size: 14px;
     }
 }
