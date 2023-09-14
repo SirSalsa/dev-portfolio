@@ -24,7 +24,7 @@ import restful from "../skills/media/api_rest.png";
 
 function Experience() {
     const [selectedExperience, setSelectedExperience] = useState('Planday');
-    const [activeBrowserItem, setActiveBrowserItem] = useState('planday'); // Initialize it with the default active item
+    const [activeBrowserItem, setActiveBrowserItem] = useState('planday'); 
 
     const handleExperienceClick = (experience: string, browserItemId: string) => {
         setSelectedExperience(experience);
