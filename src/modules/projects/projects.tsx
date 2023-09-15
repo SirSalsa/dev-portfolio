@@ -63,7 +63,7 @@ function Projects() {
         <article className="right_article">
           <div id="project_info">
             <h2>Portfolio Website (Old)</h2>
-            <p>My first React-based portfolio site that I built over the summer of 2022. Created using technologies I learnt in addition to experimenting with new technologies like Vite instead of Parcel and Sass instead of just CSS. Features multiple different tabs that the user can browse between. Designed with mobile devices in mind.</p>
+            <p>My first React-based portfolio site that I built over the summer of 2022. Created using technologies I learnt in addition to experimenting with new technologies like Vite instead of Parcel and Sass instead of just CSS. Designed with mobile devices in mind.</p>
             <div id="project_skills">
               <img src={react} alt="React.js" />
               <img src={js} alt="Javascript" />

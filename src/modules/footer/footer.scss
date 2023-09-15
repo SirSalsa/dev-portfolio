@@ -29,7 +29,7 @@
     align-items: center;
 }
 
-#contactinfo_container > div {
+#contactinfo_container>div {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -42,13 +42,13 @@
     font-family: $text_font;
 }
 
-a {
+#contactinfo_container>div>a {
     margin: 10% 0 10% 0;
 
     transition: transform 0.15s ease-out;
 }
 
-a:hover {
+#contactinfo_container>div>a:hover {
     transform: scale(1.15);
     cursor: pointer;
 }
