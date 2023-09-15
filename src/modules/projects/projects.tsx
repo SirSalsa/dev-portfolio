@@ -73,7 +73,7 @@ function Projects() {
               <img src={vite} alt="Vite" />
             </div>
             <div id="project_links">
-              <a href="https://github.com/SirSalsa/portfolio-vite">
+              <a href="https://github.com/SirSalsa/portfolio-old">
                 <img src={githublink} alt="Github" />
               </a>
               <a href="https://sirsalsa.github.io/portfolio-old/">
