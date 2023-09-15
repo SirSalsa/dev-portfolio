@@ -44,7 +44,7 @@ function Projects() {
           </div>
           <div id="project_info">
             <h2>Portfolio Website</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac vehicula velit. Sed id scelerisque nisi. Phasellus eu nunc id ex congue dictum. Vestibulum euismod cursus semper. Fusce viverra justo nec libero hendrerit, eu interdum tortor blandit. In sit amet nisl at nunc dapibus suscipit. Sed fringilla odio at nisi tincidunt, ac pharetra erat egestas. Vivamus fringilla, velit id scelerisque interdum, quam nisl bibendum lectus, eget facilisis odio lectus eget felis. Fusce vestibulum, odio et interdum tincidunt, elit arcu hendrerit arcu, id efficitur odio quam a lectus.</p>
+            <p>This very website! Created and designed with mobile devices in mind, for a seamless experience. Built with a modern techstack with technologies such as React.js and Vite for a modern and streamlined development process. I took my learnings from my previous site and built a better project, both in terms of structure and design.</p>
             <div id="project_skills">
               <img src={react} alt="React.js" />
               <img src={ts} alt="Typescript" />
@@ -54,7 +54,7 @@ function Projects() {
               <img src={vite} alt="Vite" />
             </div>
             <div id="project_links">
-              <a href="https://github.com/SirSalsa/portfolio-vite">
+              <a href="https://github.com/SirSalsa/dev-portfolio">
                 <img src={githublink} alt="Github" />
               </a>
             </div>
@@ -63,7 +63,7 @@ function Projects() {
         <article className="right_article">
           <div id="project_info">
             <h2>Portfolio Website (Old)</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac vehicula velit. Sed id scelerisque nisi. Phasellus eu nunc id ex congue dictum. Vestibulum euismod cursus semper. Fusce viverra justo nec libero hendrerit, eu interdum tortor blandit. In sit amet nisl at nunc dapibus suscipit. Sed fringilla odio at nisi tincidunt, ac pharetra erat egestas. Vivamus fringilla, velit id scelerisque interdum, quam nisl bibendum lectus, eget facilisis odio lectus eget felis. Fusce vestibulum, odio et interdum tincidunt, elit arcu hendrerit arcu, id efficitur odio quam a lectus.</p>
+            <p>My first React-based portfolio site that I built over the summer of 2022. Created using technologies I learnt in addition to experimenting with new technologies like Vite instead of Parcel and Sass instead of just CSS. Features multiple different tabs that the user can browse between. Designed with mobile devices in mind.</p>
             <div id="project_skills">
               <img src={react} alt="React.js" />
               <img src={js} alt="Javascript" />
