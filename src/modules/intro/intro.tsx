@@ -15,7 +15,7 @@ function Intro() {
             <div id="desc_container">
                 <h2>About Me</h2>
                 <p>
-                    Hello! I'm Torsten, a versatile backend developer skilled in both Java and C#, which broadens my perspective in the field. This June marks the completion of my two-year Java Developer education and my internship at Planday.
+                    Hello! I'm Torsten, a versatile backend developer skilled in both Java and C#, which broadens my perspective in the field. This June marked the completion of my two-year Java Developer education and my internship at Planday.
 
                     During my educational journey, I've explored various facets of programming, including (but not limited to) database management, Java web services, front-end development fundamentals, API implementation, and Android development.
 

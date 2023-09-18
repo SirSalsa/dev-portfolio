@@ -28,6 +28,7 @@
     justify-content: flex-start;
 
     grid-column: 2/3;
+    padding-left: 25px;
 }
 
 #right_container {
@@ -40,6 +41,9 @@
 
     min-height: 60px;
     text-align: center;
+
+    padding-right: 25px;
+    padding-left: 10px;
 }
 
 #right_container > h2 {
@@ -69,7 +73,6 @@
 
     #left_container > h1 {
         font-size: 30px;
-        margin-left: 5px;
     }
 
     #right_container {
@@ -86,6 +89,8 @@
 
     #right_container > h2 {
         font-size: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
@@ -96,9 +101,17 @@
         grid-template-columns: 20% 80%;
     }
 
+    #left_container {
+        padding-left: 3%;
+    }
+
     #left_container > h1 {
         font-size: 15px;
         text-align: center;
+    }
+
+    #right_container {
+        padding-right: 3%;
     }
 
     #right_container > h2 {
